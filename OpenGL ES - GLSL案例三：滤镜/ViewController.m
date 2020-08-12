@@ -179,7 +179,7 @@ typedef struct {
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
     
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, spritData);
-    
+
     free(spritData);
     return texture;
 }
@@ -209,7 +209,9 @@ typedef struct {
     glUniform1i(colorMap, 0);
     
     GLuint size = glGetUniformLocation(self.myProgarm, "size");
-    glUniform2f(size, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+    glUniform2f(size,
+                [[NSString stringWithFormat:@"%d",[self drawableWidth]] floatValue],
+                [[NSString stringWithFormat:@"%d",[self drawableHeight]] floatValue]);
 //    glUniform2i(size, [self drawableWidth], [self drawableHeight]);
     
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
