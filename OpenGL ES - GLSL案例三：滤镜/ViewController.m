@@ -56,7 +56,7 @@ typedef struct {
     filerBar.delegate = self;
     [self.view addSubview:filerBar];
     
-    NSArray *dataSource = @[@"无",@"分屏_2",@"分屏_3",@"分屏_4",@"分屏_5",@"分屏_6",@"分屏_9",@"灰度滤镜_1",@"灰度滤镜_2",@"翻转",@"翻转动画"];
+    NSArray *dataSource = @[@"无",@"分屏_2",@"分屏_3",@"分屏_4",@"分屏_5",@"分屏_6",@"分屏_9",@"灰度滤镜_1",@"灰度滤镜_2",@"翻转",@"翻转动画",@"马赛克_1"];
     filerBar.itemList = dataSource;
 }
 
@@ -94,6 +94,8 @@ typedef struct {
         [self setupShaderProgramWithName:@"reversal"];
     }else if(index == 10){
         [self setupShaderProgramWithNameAnimation:@"reversal_2"];
+    }else if(index == 11){
+        [self setupShaderProgramWithName:@"mosaic"];
     }
 }
 
@@ -206,6 +208,10 @@ typedef struct {
     GLuint colorMap = glGetUniformLocation(self.myProgarm, "colorMap");
     glUniform1i(colorMap, 0);
     
+    GLuint size = glGetUniformLocation(self.myProgarm, "size");
+    glUniform2f(size, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+//    glUniform2i(size, [self drawableWidth], [self drawableHeight]);
+    
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
     [self.myConten presentRenderbuffer:GL_RENDERBUFFER];
 }
@@ -225,6 +231,9 @@ typedef struct {
     
     GLuint colorMap = glGetUniformLocation(self.myProgarm, "colorMap");
     glUniform1i(colorMap, 0);
+    
+    GLuint size = glGetUniformLocation(self.myProgarm, "size");
+    glUniform2i(size, [self drawableWidth], [self drawableHeight]);
     
     startTimeInterval = 0;
 }
