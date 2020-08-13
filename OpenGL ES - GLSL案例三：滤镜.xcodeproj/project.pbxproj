@@ -40,6 +40,18 @@
 		023F04E924E3E7F4009A2B47 /* reversal_2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F04E824E3E7F4009A2B47 /* reversal_2.fsh */; };
 		023F04EC24E453CB009A2B47 /* mosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F04EB24E453CB009A2B47 /* mosaic.vsh */; };
 		023F04EE24E453DA009A2B47 /* mosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F04ED24E453DA009A2B47 /* mosaic.fsh */; };
+		023F04F024E57E4F009A2B47 /* mosaic_1.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F04EF24E57E4F009A2B47 /* mosaic_1.vsh */; };
+		023F04F224E57E59009A2B47 /* mosaic_1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F04F124E57E59009A2B47 /* mosaic_1.fsh */; };
+		023F04F424E592B2009A2B47 /* mosaic_2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F04F324E592B2009A2B47 /* mosaic_2.fsh */; };
+		023F04F624E592B8009A2B47 /* mosaic_2.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F04F524E592B8009A2B47 /* mosaic_2.vsh */; };
+		023F04F924E59B11009A2B47 /* 六边形马赛克注释1.png in Resources */ = {isa = PBXBuildFile; fileRef = 023F04F724E59B11009A2B47 /* 六边形马赛克注释1.png */; };
+		023F04FA24E59B11009A2B47 /* 六边形马赛克注释2.png in Resources */ = {isa = PBXBuildFile; fileRef = 023F04F824E59B11009A2B47 /* 六边形马赛克注释2.png */; };
+		023F04FD24E59C06009A2B47 /* scale.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F04FC24E59C06009A2B47 /* scale.vsh */; };
+		023F04FF24E59C0C009A2B47 /* scale.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F04FE24E59C0C009A2B47 /* scale.fsh */; };
+		023F050124E5A6D8009A2B47 /* scale_1.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F050024E5A6D8009A2B47 /* scale_1.vsh */; };
+		023F050324E5A6E4009A2B47 /* scale_1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F050224E5A6E4009A2B47 /* scale_1.fsh */; };
+		023F050524E5ACE3009A2B47 /* soulOut.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F050424E5ACE3009A2B47 /* soulOut.vsh */; };
+		023F050824E5ACFC009A2B47 /* soulOut.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 023F050724E5ACFC009A2B47 /* soulOut.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +95,18 @@
 		023F04E824E3E7F4009A2B47 /* reversal_2.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = reversal_2.fsh; sourceTree = "<group>"; };
 		023F04EB24E453CB009A2B47 /* mosaic.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = mosaic.vsh; sourceTree = "<group>"; };
 		023F04ED24E453DA009A2B47 /* mosaic.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = mosaic.fsh; sourceTree = "<group>"; };
+		023F04EF24E57E4F009A2B47 /* mosaic_1.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = mosaic_1.vsh; sourceTree = "<group>"; };
+		023F04F124E57E59009A2B47 /* mosaic_1.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = mosaic_1.fsh; sourceTree = "<group>"; };
+		023F04F324E592B2009A2B47 /* mosaic_2.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = mosaic_2.fsh; sourceTree = "<group>"; };
+		023F04F524E592B8009A2B47 /* mosaic_2.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = mosaic_2.vsh; sourceTree = "<group>"; };
+		023F04F724E59B11009A2B47 /* 六边形马赛克注释1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "六边形马赛克注释1.png"; sourceTree = "<group>"; };
+		023F04F824E59B11009A2B47 /* 六边形马赛克注释2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "六边形马赛克注释2.png"; sourceTree = "<group>"; };
+		023F04FC24E59C06009A2B47 /* scale.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = scale.vsh; sourceTree = "<group>"; };
+		023F04FE24E59C0C009A2B47 /* scale.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = scale.fsh; sourceTree = "<group>"; };
+		023F050024E5A6D8009A2B47 /* scale_1.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = scale_1.vsh; sourceTree = "<group>"; };
+		023F050224E5A6E4009A2B47 /* scale_1.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = scale_1.fsh; sourceTree = "<group>"; };
+		023F050424E5ACE3009A2B47 /* soulOut.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = soulOut.vsh; sourceTree = "<group>"; };
+		023F050724E5ACFC009A2B47 /* soulOut.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = soulOut.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +170,8 @@
 		023F04B824E2F065009A2B47 /* CustomShader */ = {
 			isa = PBXGroup;
 			children = (
+				023F050624E5ACEC009A2B47 /* SoulOut */,
+				023F04FB24E59BF4009A2B47 /* Scale */,
 				023F04EA24E45388009A2B47 /* Mosaic */,
 				023F04E124E3E566009A2B47 /* Reversal */,
 				023F04D824E3E1EC009A2B47 /* Gray */,
@@ -202,8 +228,34 @@
 			children = (
 				023F04EB24E453CB009A2B47 /* mosaic.vsh */,
 				023F04ED24E453DA009A2B47 /* mosaic.fsh */,
+				023F04EF24E57E4F009A2B47 /* mosaic_1.vsh */,
+				023F04F124E57E59009A2B47 /* mosaic_1.fsh */,
+				023F04F724E59B11009A2B47 /* 六边形马赛克注释1.png */,
+				023F04F824E59B11009A2B47 /* 六边形马赛克注释2.png */,
+				023F04F524E592B8009A2B47 /* mosaic_2.vsh */,
+				023F04F324E592B2009A2B47 /* mosaic_2.fsh */,
 			);
 			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		023F04FB24E59BF4009A2B47 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				023F04FC24E59C06009A2B47 /* scale.vsh */,
+				023F04FE24E59C0C009A2B47 /* scale.fsh */,
+				023F050024E5A6D8009A2B47 /* scale_1.vsh */,
+				023F050224E5A6E4009A2B47 /* scale_1.fsh */,
+			);
+			path = Scale;
+			sourceTree = "<group>";
+		};
+		023F050624E5ACEC009A2B47 /* SoulOut */ = {
+			isa = PBXGroup;
+			children = (
+				023F050424E5ACE3009A2B47 /* soulOut.vsh */,
+				023F050724E5ACFC009A2B47 /* soulOut.fsh */,
+			);
+			path = SoulOut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,19 +317,28 @@
 			files = (
 				023F04C324E30477009A2B47 /* SplitScreen_2.fsh in Resources */,
 				023F04E324E3E570009A2B47 /* reversal.vsh in Resources */,
+				023F04FD24E59C06009A2B47 /* scale.vsh in Resources */,
 				023F04E024E3E4F5009A2B47 /* gray_2.vsh in Resources */,
 				023F04EC24E453CB009A2B47 /* mosaic.vsh in Resources */,
+				023F04FF24E59C0C009A2B47 /* scale.fsh in Resources */,
+				023F04F624E592B8009A2B47 /* mosaic_2.vsh in Resources */,
+				023F04F424E592B2009A2B47 /* mosaic_2.fsh in Resources */,
 				023F04BD24E2F0A7009A2B47 /* SplitScreen_0.fsh in Resources */,
 				023F04DA24E3E1F9009A2B47 /* gray_1.vsh in Resources */,
 				023F04C124E3046E009A2B47 /* SplitScreen_2.vsh in Resources */,
+				023F050524E5ACE3009A2B47 /* soulOut.vsh in Resources */,
 				023F04D124E30B95009A2B47 /* SplitScreen_6.vsh in Resources */,
 				023F04DE24E3E4ED009A2B47 /* gray_2.fsh in Resources */,
 				023F04D524E3E04B009A2B47 /* SplitScreen_9.vsh in Resources */,
 				023F04A824E2D7BA009A2B47 /* LaunchScreen.storyboard in Resources */,
+				023F04F924E59B11009A2B47 /* 六边形马赛克注释1.png in Resources */,
 				023F04E724E3E7ED009A2B47 /* reversal_2.vsh in Resources */,
+				023F050324E5A6E4009A2B47 /* scale_1.fsh in Resources */,
 				023F04CD24E3082D009A2B47 /* SplitScreen_5.vsh in Resources */,
 				023F04CF24E3084D009A2B47 /* SplitScreen_5.fsh in Resources */,
 				023F04A524E2D7BA009A2B47 /* Assets.xcassets in Resources */,
+				023F04F224E57E59009A2B47 /* mosaic_1.fsh in Resources */,
+				023F04F024E57E4F009A2B47 /* mosaic_1.vsh in Resources */,
 				023F04CB24E3075D009A2B47 /* SplitScreen_4.vsh in Resources */,
 				023F04E524E3E578009A2B47 /* reversal.fsh in Resources */,
 				023F04A324E2D7B9009A2B47 /* Main.storyboard in Resources */,
@@ -287,9 +348,12 @@
 				023F04D724E3E053009A2B47 /* SplitScreen_9.fsh in Resources */,
 				023F04C724E3066E009A2B47 /* SplitScreen_3.vsh in Resources */,
 				023F04DC24E3E205009A2B47 /* gray_1.fsh in Resources */,
+				023F050824E5ACFC009A2B47 /* soulOut.fsh in Resources */,
 				023F04EE24E453DA009A2B47 /* mosaic.fsh in Resources */,
 				023F04D324E30B9F009A2B47 /* SplitScreen_6.fsh in Resources */,
 				023F04BB24E2F09E009A2B47 /* SplitScreen_0.vsh in Resources */,
+				023F050124E5A6D8009A2B47 /* scale_1.vsh in Resources */,
+				023F04FA24E59B11009A2B47 /* 六边形马赛克注释2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

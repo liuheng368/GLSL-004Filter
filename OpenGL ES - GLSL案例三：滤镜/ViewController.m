@@ -56,7 +56,7 @@ typedef struct {
     filerBar.delegate = self;
     [self.view addSubview:filerBar];
     
-    NSArray *dataSource = @[@"无",@"分屏_2",@"分屏_3",@"分屏_4",@"分屏_5",@"分屏_6",@"分屏_9",@"灰度滤镜_1",@"灰度滤镜_2",@"翻转",@"翻转动画",@"马赛克_1"];
+    NSArray *dataSource = @[@"无",@"分屏_2",@"分屏_3",@"分屏_4",@"分屏_5",@"分屏_6",@"分屏_9",@"灰度滤镜_1",@"灰度滤镜_2",@"翻转",@"翻转动画",@"马赛克_1",@"马_六边形",@"马_三角形",@"缩放",@"灵魂出窍"];
     filerBar.itemList = dataSource;
 }
 
@@ -96,6 +96,15 @@ typedef struct {
         [self setupShaderProgramWithNameAnimation:@"reversal_2"];
     }else if(index == 11){
         [self setupShaderProgramWithName:@"mosaic"];
+    }else if(index == 12){
+        [self setupShaderProgramWithName:@"mosaic_1"];
+    }else if(index == 13){
+        [self setupShaderProgramWithName:@"mosaic_2"];
+    }else if(index == 14){
+//        [self setupShaderProgramWithNameAnimation:@"scale"];  //顶点着色器处理
+        [self setupShaderProgramWithNameAnimation:@"scale_1"];  //片元着色器处理
+    }else if(index == 15){
+        [self setupShaderProgramWithNameAnimation:@"soulOut"];
     }
 }
 
@@ -208,11 +217,11 @@ typedef struct {
     GLuint colorMap = glGetUniformLocation(self.myProgarm, "colorMap");
     glUniform1i(colorMap, 0);
     
+    //画布面积
     GLuint size = glGetUniformLocation(self.myProgarm, "size");
     glUniform2f(size,
                 [[NSString stringWithFormat:@"%d",[self drawableWidth]] floatValue],
                 [[NSString stringWithFormat:@"%d",[self drawableHeight]] floatValue]);
-//    glUniform2i(size, [self drawableWidth], [self drawableHeight]);
     
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
     [self.myConten presentRenderbuffer:GL_RENDERBUFFER];
